@@ -3,6 +3,8 @@
 {% block content %}
   <div class="post-entry">
     <h2>{{ post.title }}</h2>
+    <h2> Week {{ post.week }}</h2>
+    <h2> {{post.team}}</h2>
     <p>{{ post.body }}</p>
   </div>
   <a href="{%url 'post_edit' post.pk %}">+ Edit Blog Post</a><br>
