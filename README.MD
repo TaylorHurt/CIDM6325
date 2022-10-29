@@ -3,8 +3,9 @@ python3 -m venv .venv
 # 2. ACTIVATE VIRTUAL ENVIRONMENT
 source .venv/bin/activate [`deactivate` will deactivate server]
 # 3. START DJANGO PROJECT
+create new folder first! then run 
 django-admin startproject django_project . 
-
+# then start app
 # 4 ENV FILE
 add SECRET_KEY = x3^(tot02^_b_y#&ol7tpmmu0d^-6ub90f=#33-2#@=kzb_hnz to .env file
 
@@ -74,3 +75,5 @@ pip list -o
 python -m pip install --upgrade Django
 # update to specific pacakge version
 python -m pip install python-dateutil==1.5
+# outdated
+python3 -m pip list --outdated
